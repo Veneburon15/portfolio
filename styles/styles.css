@@ -1,19 +1,29 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 2rem 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav-elements {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  gap: 1em;
+}
+
 * {
   padding: 0;
   margin: 0;
-  border: 1px solid purple;
 }
 
 h1 {
-  font-family: "Acme", sans-serif;
-}
-
-h2 {
-  font-family: "Bebas Neue", sans-serif;
-}
-
-h3 {
-  font-family: "Changa", sans-serif;
+  font-family: "Young Serif", serif;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2rem 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-elements {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 1em;
+}
